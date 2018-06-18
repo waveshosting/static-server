@@ -6,7 +6,7 @@
   "author": "Nicolás López <nicolaslopezj@me.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node ./node_modules/serve/bin/serve.js -l $PORT"
+    "start": "./node_modules/.bin/serve -l $PORT"
   },
   "dependencies": {
     "serve": "^9.1.0"
